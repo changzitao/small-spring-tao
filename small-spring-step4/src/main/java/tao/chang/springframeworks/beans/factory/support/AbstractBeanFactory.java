@@ -6,24 +6,22 @@ import tao.chang.springframeworks.beans.factory.config.BeanDefinition;
 
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
     @Override
-    public Object getBean(String name) throws BeanException {
-
-
+    public Object getBean(String name) {
         return doGetBean(name,null);
     }
+
     @Override
     public Object getBean(String name, Object... args) {
-
         return doGetBean(name,args);
     }
-
-    protected  <T>T doGetBean(String name, final Object[] args) {
-        Object bean =getSingleton(name);
-        if(bean!=null)return (T) bean;
-        BeanDefinition beanDefinition = getBeanDefinition(name);
+    public <T>T doGetBean(String name,Object[]args){
+        Object bean = getSingletonBean(name);
+        if(bean!=null){
+            return (T) bean;
+        }
+        BeanDefinition beanDefinition =getBeanDefinition(name);
         return (T) createBean(name,beanDefinition,args);
     }
-
 
     public abstract BeanDefinition getBeanDefinition(String name) throws BeanException;
 

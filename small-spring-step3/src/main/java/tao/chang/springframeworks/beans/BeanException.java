@@ -1,4 +1,4 @@
-package tao.chang.springframeworks.beans.factory;
+package tao.chang.springframeworks.beans;
 
 public class BeanException extends RuntimeException{
     public BeanException(String msg){

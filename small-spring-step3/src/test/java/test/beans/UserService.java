@@ -6,6 +6,8 @@ public class UserService {
     public UserService(String name) {
         this.name = name;
     }
+    public UserService() {
+    }
     public void query(){
         System.out.println("查询用户信息："+name);
     }

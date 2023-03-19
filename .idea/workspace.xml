@@ -4,29 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1323aab-8749-4dcf-b472-3ebdb315b139" name="变更" comment="small-spring-step2">
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/BeanException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/test/java/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step3/src/test/java/test/beans/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b1323aab-8749-4dcf-b472-3ebdb315b139" name="变更" comment="small-spring-step3">
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/BeanException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/PropertyValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/config/BeanReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/support/CglibSubclassInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/main/java/tao/chang/springframeworks/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/test/java/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/test/java/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small-spring-step4/src/test/java/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/BeanException.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/BeanException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/CglibSubclassingInstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/DefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/InstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/SimpleInstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/test/java/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step3/src/test/java/test/beans/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step3/src/test/java/test/beans/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring-step4/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -77,7 +85,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ApiTest.test">
+  <component name="RunManager" selected="JUnit.ApiTest.test_BeanFactory (1)">
+    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="small-spring-step3" />
       <extension name="coverage">
@@ -89,6 +106,16 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_BeanFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,6 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory (1)" />
+        <item itemvalue="JUnit.ApiTest" />
         <item itemvalue="JUnit.ApiTest.test" />
         <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
       </list>
@@ -122,7 +151,9 @@
       <workItem from="1678959165341" duration="9631000" />
       <workItem from="1679017172909" duration="4000" />
       <workItem from="1679046237195" duration="582000" />
-      <workItem from="1679050580911" duration="9665000" />
+      <workItem from="1679050580911" duration="9844000" />
+      <workItem from="1679223333153" duration="490000" />
+      <workItem from="1679225836189" duration="7740000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1678960870443</created>
@@ -138,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678967404387</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="small-spring-step3">
+      <created>1679063372172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679063372173</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +209,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="aaa" />
     <MESSAGE value="small-spring-step2" />
-    <option name="LAST_COMMIT_MESSAGE" value="small-spring-step2" />
+    <MESSAGE value="small-spring-step3" />
+    <option name="LAST_COMMIT_MESSAGE" value="small-spring-step3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -182,11 +221,21 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small-spring-step3/src/test/java/test/ApiTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/small-spring-step4/src/test/java/ApiTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/small-spring-step3/src/main/java/tao/chang/springframeworks/beans/factory/support/CglibSubclassingInstantiationStrategy.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

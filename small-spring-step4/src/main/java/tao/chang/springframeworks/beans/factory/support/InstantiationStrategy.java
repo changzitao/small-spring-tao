@@ -6,5 +6,5 @@ import tao.chang.springframeworks.beans.factory.config.BeanDefinition;
 import java.lang.reflect.Constructor;
 
 public interface InstantiationStrategy {
-    public Object instantiate(BeanDefinition beanDefinition, String beanName, Constructor ctor,Object[]args)throws BeanException;
+    public Object instantiationStrategy(BeanDefinition beanDefinition, String beanName, Constructor ctor, Object []args)throws BeanException;
 }
