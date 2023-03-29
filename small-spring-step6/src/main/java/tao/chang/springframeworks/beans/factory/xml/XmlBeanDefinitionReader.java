@@ -14,10 +14,8 @@ import tao.chang.springframeworks.beans.factory.support.BeanDefinitionRegistry;
 import tao.chang.springframeworks.core.io.Resource;
 import tao.chang.springframeworks.core.io.ResourceLoader;
 
-import javax.sql.rowset.spi.XmlReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.annotation.Documented;
 
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
     public XmlBeanDefinitionReader(BeanDefinitionRegistry beanDefinitionRegistry) {
@@ -40,8 +38,8 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
     }
 
     @Override
-    public void loadBeanDefinitions(Resource... resources) throws BeanException {
-        for (Resource resource : resources) {
+    public void loadBeanDefinitions(String[] resources) throws BeanException {
+        for (String resource : resources) {
             loadBeanDefinitions(resource);
         }
     }
@@ -51,6 +49,13 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
         ResourceLoader resourceLoader = getResource();
         Resource resource = resourceLoader.getResource(location);
         loadBeanDefinitions(resource);
+    }
+
+    @Override
+    public void loadBeanDefinitions(Resource... resources) throws BeanException {
+        for (Resource resource : resources) {
+            loadBeanDefinitions(resource);
+        }
     }
 
     protected void doLoadBeanDefinitions(InputStream inputStream) throws ClassNotFoundException {
