@@ -15,6 +15,7 @@
         <module>small-spring-step4</module>
         <module>small-spring-step5</module>
         <module>small-spring-step6</module>
+        <module>small-spring-step7</module>
     </modules>
 
     <properties>
