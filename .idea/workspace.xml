@@ -4,65 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1323aab-8749-4dcf-b472-3ebdb315b139" name="变更" comment="small-spring-step6">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/BeanException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/PropertyValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/PropertyValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/Aware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/BeanClassLoaderAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/BeanFactoryAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/BeanNameAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/ConfigurableListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/DisposableBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/HierarchicalBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/InitializingBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/ListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/config/AutowireCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/config/BeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/config/BeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/config/BeanReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractBeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/BeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/CglibSubclassInstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/DisposableBeanAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/context/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/context/ApplicationContextAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/context/ConfigurableApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/context/support/AbstractApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/context/support/AbstractRefreshableApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/context/support/AbstractXmlApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/context/support/ApplicationContextAwareProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/core/io/ClassPathResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/core/io/DefaultResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/core/io/FileSystemResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/core/io/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/core/io/ResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/core/io/UrlResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/main/java/tao/chang/springframeworks/utils/ClassUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/test/java/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/test/java/step8/bean/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/test/java/step8/bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small-spring-step8/src/test/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring-step7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring-step7/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b1323aab-8749-4dcf-b472-3ebdb315b139" name="变更" comment="small-spring-step7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +168,7 @@
       <workItem from="1680436874819" duration="1916000" />
       <workItem from="1680521247596" duration="4439000" />
       <workItem from="1680526256488" duration="4250000" />
-      <workItem from="1681124773503" duration="11567000" />
+      <workItem from="1681124773503" duration="11884000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1678960870443</created>
@@ -270,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680090438691</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="small-spring-step7">
+      <created>1681137414755</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681137414755</updated>
+    </task>
+    <task id="LOCAL-00008" summary="small-spring-step7">
+      <created>1681137467724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681137467724</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +263,8 @@
     <MESSAGE value="small-spring-step4" />
     <MESSAGE value="small-spring-step5" />
     <MESSAGE value="small-spring-step6" />
-    <option name="LAST_COMMIT_MESSAGE" value="small-spring-step6" />
+    <MESSAGE value="small-spring-step7" />
+    <option name="LAST_COMMIT_MESSAGE" value="small-spring-step7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
