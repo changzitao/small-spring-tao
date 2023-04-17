@@ -38,11 +38,11 @@
         <artifactId>cglib</artifactId>
         <version>3.3.0</version>
     </dependency>
-    <dependency>
-        <groupId>no.priv.bang.beans</groupId>
-        <artifactId>beans</artifactId>
-        <version>1.2.0</version>
-    </dependency>
+<!--    <dependency>-->
+<!--        <groupId>no.priv.bang.beans</groupId>-->
+<!--        <artifactId>beans</artifactId>-->
+<!--        <version>1.2.0</version>-->
+<!--    </dependency>-->
     <dependency>
         <groupId>no.priv.bang.beans</groupId>
         <artifactId>beans.tests</artifactId>

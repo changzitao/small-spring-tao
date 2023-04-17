@@ -19,6 +19,8 @@
         <module>small-spring-step8</module>
         <module>small-spring-step9</module>
         <module>small-spring-step10</module>
+        <module>small-spring-setp11</module>
+        <module>small-spring-step11</module>
     </modules>
 
     <properties>
