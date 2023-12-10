@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/small-spring-ct/pom.xml" />
         <option value="$PROJECT_DIR$/small-spring-setp11/pom.xml" />
         <option value="$PROJECT_DIR$/small-spring-step2/spring-small-step3/pom.xml" />
       </set>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="beanCT" class="tao.chang.springframework.test.bean.BeanCT">
+        <property name="wifiName" value="你猜"/>
+        <property name="marriageDate" value="2021-08-08"/>
+    </bean>
+
+    <bean id="conversionService" class="tao.chang.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters" ref="converters"/>
+    </bean>
+
+    <bean id="converters" class="tao.chang.springframework.test.converter.ConvertersFactoryBean"/>
+
+</beans>

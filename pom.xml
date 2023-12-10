@@ -21,6 +21,7 @@
         <module>small-spring-step10</module>
         <module>small-spring-step11</module>
         <module>small-spring-step12</module>
+        <module>small-spring-ct-alls</module>
     </modules>
 
     <properties>
